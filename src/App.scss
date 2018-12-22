@@ -1,0 +1,54 @@
+body {
+    background-color: #213647;
+    background-image: url('./assets/pattern.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato';
+
+    .App {
+      li {
+        float: right;
+      }
+
+      i {
+        cursor: pointer;
+      }
+
+      .contactName {
+        padding-top: 8px;
+      }
+
+      .fa-edit{
+        color: #ffc107;
+        float: right;
+        font-size: 19px;
+        padding-top: 5px;
+        padding-right: 10px;
+        &:hover {
+          color: lighten(#ffc107, 10%);
+        }
+      }
+
+      .fa-times {
+        color: #dc3545;
+        float: right;
+        padding-top: 4px;
+        &:hover {
+          color: lighten(#dc3545, 10%);
+        }
+      }
+      
+      .fa-user,
+      .fa-envelope,
+      .fa-phone {
+        margin-right: 10px;
+        color: #213647;
+      }
+
+      .notFound {
+        display: block;
+        margin: auto;
+      }
+    }
+}
+
